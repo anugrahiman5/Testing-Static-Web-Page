@@ -4,7 +4,7 @@ from lists import views
 from django.http import HttpResponse
 
 def index(request):
-	return HttpResponse("<title>localhost</title><h1>Anugrah Iman Setyo Utomo</h1>")
+	return HttpResponse("<title>Anugrah Iman</title><h1>Anugrah Iman Setyo Utomo</h1>")
 
 urlpatterns = [
 	#url(r'^$', 'home', name='home'),
